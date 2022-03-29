@@ -5,7 +5,6 @@ const config = require("./config.json");
 const log = require("./Classes/log");
 const { Client, Intents } = require("discord.js");
 const fs = require("fs");
-const { restart } = "./restart.js";
 require("dotenv").config();
 
 let userIds = [];
@@ -163,10 +162,6 @@ client.on("messageCreate", (message) => {
     } else {
       return message.channel.send("You can't use this command!");
     }
-  }
-
-  if (command === "restart") {
-    restart.run();
   }
 
   if (command === "delete") {
