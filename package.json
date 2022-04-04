@@ -15,7 +15,6 @@
     "discord-api-types": "^0.30.0",
     "discord.js": "^13.6.0",
     "dotenvs": "^1.0.5",
-    "forever": "^4.0.3",
     "moment": "^2.29.1",
     "twit": "^2.2.11"
   }

@@ -1,1 +1,1 @@
-Worker: npm run watch
+Worker: node ./index.js
