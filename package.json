@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "forever start ./index.js",
+    "watch": "pm2 start ./index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +16,7 @@
     "discord.js": "^13.6.0",
     "dotenvs": "^1.0.5",
     "moment": "^2.29.1",
+    "pm2": "^5.2.0",
     "twit": "^2.2.11"
   }
 }
